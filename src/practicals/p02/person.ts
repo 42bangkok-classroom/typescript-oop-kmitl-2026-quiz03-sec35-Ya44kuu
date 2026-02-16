@@ -3,7 +3,9 @@ export class Person {
     lastname?:string;
 
     getFullName():string{
-        
-        return this.firstname + " " + this.lastname;
+        return `${this.firstname} ${this.lastname}`;
+    }
+    getAge():number{
+
     }
 }
