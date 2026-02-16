@@ -1,13 +1,13 @@
 export class Person {
     firstname?:string;
     lastname?:string;
-    private _age?:number;
+    private age: number = 0;
     static COUNTRY: string = "Thailand";
-    getAge():number|undefined{
-        return this._age;
+    getAge():number{
+        return this.age;
     }
     setAge(age:number){
-        this._age = age
+        this.age = age
     }
 
     getFullName():string{
