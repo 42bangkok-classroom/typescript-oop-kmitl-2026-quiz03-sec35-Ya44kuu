@@ -1,6 +1,7 @@
 export class Product {
     name?:string;
     protected price:number = 0;
+    static DISCOUNT_PERCENT:number = 10;
     constructor(name:string){
         this.name = name;
     }

@@ -14,7 +14,7 @@ export class Playstation extends Product {
     }
     getDiscountPrice():number{
       // 17091 (ถ้า Product.DISCOUNT_PERCENT = 10, คำนวณจาก 18990 - (18990 * 10 / 100))
-      const discount = this.price - (this.price *10 /100)
+      const discount = this.price - (this.price *Product.DISCOUNT_PERCENT /100)
       return discount;
     }
 }
