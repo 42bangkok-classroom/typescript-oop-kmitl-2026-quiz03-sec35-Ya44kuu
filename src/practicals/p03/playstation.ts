@@ -5,7 +5,7 @@ export class Playstation extends Product {
     gen: number;
 
     constructor(name: string, gen: number, price: number) {
-        super(name);
+        super(name, price);
         this.gen = gen;
         this.setPrice(price); 
     }
