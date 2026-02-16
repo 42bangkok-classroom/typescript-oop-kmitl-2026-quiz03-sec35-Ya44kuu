@@ -1,1 +1,9 @@
-export class Person {}
+export class Person {
+    firstname?:string;
+    lastname?:string;
+
+    getFullName():string{
+        
+        return this.firstname + " " + this.lastname;
+    }
+}
