@@ -3,7 +3,6 @@ export class Student {
     lastname?:string;
 
     printName():string{
-        console.log(this.firstname," ",this.lastname);
-        return "";
+        return this.firstname + " " + this.lastname;
     }
 }
