@@ -1,8 +1,7 @@
 export class Person {
-    private adress?:string;
     firstname?:string;
     lastname?:string;
-    age?:number;
+    private age?:number;
     static COUNTRY: string = "Thailand";
     setAge(age:number){
         this.age = age
